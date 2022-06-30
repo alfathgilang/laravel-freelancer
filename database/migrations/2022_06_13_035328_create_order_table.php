@@ -24,6 +24,7 @@ return new class extends Migration
             $table->foreignId('order_status_id')->nullable()->index('fk_order_to_order_status');
             $table->softDeletes();
             $table->timestamps();
+            //tambahan
         });
     }
 
