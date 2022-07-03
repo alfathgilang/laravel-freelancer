@@ -14,9 +14,8 @@ class ServiceController extends Controller
      */
     public function index()
     {
-        //
+        return view('pages.dashboard.service.index');
     }
-
     /**
      * Show the form for creating a new resource.
      *
@@ -24,7 +23,7 @@ class ServiceController extends Controller
      */
     public function create()
     {
-        //
+        return view('pages.dashboard.service.create');
     }
 
     /**
@@ -57,7 +56,7 @@ class ServiceController extends Controller
      */
     public function edit($id)
     {
-        //
+        return view('pages.dashboard.service.create');
     }
 
     /**
